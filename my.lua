@@ -37,7 +37,7 @@ if game.PlaceId == 8785674722 then
             end)
     
            
-                MainSection:NewButton("Gem Autofarm", "Farming Gems, Rejoin to to stop!", function(v)
+                MainSection:NewButton("Gem Autofarm", "Farming Gems Rejoin to to stop!", function(v)
                     while wait(1) do 
                         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8622818, 2.75, 519.345215, 0.788016856, 0, 0.615653694, 0, 1, 0, -0.615653694, 0, 0.788016856)
                         wait(0,1)
